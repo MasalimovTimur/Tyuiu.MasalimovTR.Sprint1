@@ -1,4 +1,6 @@
-﻿namespace Tyuiu.MasalimovTR.Sprint1.Task4.V27
+﻿using Tyuiu.MasalimovTR.Sprint1.Task4.V27.Lib;
+
+namespace Tyuiu.MasalimovTR.Sprint1.Task4.V27
 {
     internal class Program
     {
@@ -23,7 +25,8 @@
 
             double x = Convert.ToDouble(Console.ReadLine());
             double y = Convert.ToDouble(Console.ReadLine());
-            double res = (1 + Math.Sin(Math.PI * x)) / (x - Math.Sqrt(Math.Abs(y)));
+            DataServise ds = new DataServise();
+            double res = ds.Calculate(x, y);
             Console.WriteLine("Результат: " + res );
         }
     }
