@@ -23,7 +23,7 @@
 
             double x = Convert.ToDouble(Console.ReadLine());
             double y = Convert.ToDouble(Console.ReadLine());
-            double res = Math.Round((1 + Math.Sin(Math.PI * x)) / (x - Math.Sqrt(Math.Abs(y))), 3);
+            double res = (1 + Math.Sin(Math.PI * x)) / (x - Math.Sqrt(Math.Abs(y)));
             Console.WriteLine("Результат: " + res );
         }
     }
