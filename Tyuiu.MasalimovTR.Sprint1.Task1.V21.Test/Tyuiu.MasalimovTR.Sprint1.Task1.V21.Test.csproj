@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{63F16FBC-F63A-4B6F-9528-A2AC7F17116F}</ProjectGuid>
+    <ProjectGuid>{206D6157-FE4B-452E-B534-382E268F8022}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnitTestProject1</RootNamespace>
-    <AssemblyName>UnitTestProject1</AssemblyName>
+    <RootNamespace>Tyuiu.MasalimovTR.Sprint1.Task1.V21.Test</RootNamespace>
+    <AssemblyName>Tyuiu.MasalimovTR.Sprint1.Task1.V21.Test</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -56,8 +56,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\Tyuiu.MasalimovTR.Sprint1.Task1.V21.Lib.csproj">
-      <Project>{5ebf24c8-6af6-4f25-b9b8-517fb8558521}</Project>
+    <ProjectReference Include="..\Tyuiu.MasalimovTR.Sprint1.Task1.V21.Lib\Tyuiu.MasalimovTR.Sprint1.Task1.V21.Lib.csproj">
+      <Project>{517af6c7-ed11-4a41-bf64-0fd425c9c459}</Project>
       <Name>Tyuiu.MasalimovTR.Sprint1.Task1.V21.Lib</Name>
     </ProjectReference>
   </ItemGroup>
