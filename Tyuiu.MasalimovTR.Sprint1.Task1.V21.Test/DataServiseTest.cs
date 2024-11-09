@@ -1,4 +1,3 @@
-﻿
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tyuiu.MasalimovTR.Sprint1.Task1.V21.Lib;
