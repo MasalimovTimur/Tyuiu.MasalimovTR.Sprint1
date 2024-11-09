@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using tyuiu.cources.programming.interfaces.Sprint1;
+﻿using tyuiu.cources.programming.interfaces.Sprint1;
 
-namespace Tyuiu.MasalimovTR.Sprint1.Task1.V21.Lib
+namespace Tyuiu.MasalimovTR.Sprint1.Task2.V23.Lib
 {
-    public class DataServise : ISprint1Task1V21
+    public class DataServise : ISprint1Task2V23
     {
-        public double Calculate(double x, double y)
+        public int ConvertMinutesToSeconds(int value)
         {
-            return x / (1 - y);
+            return value*60;
         }
     }
 }

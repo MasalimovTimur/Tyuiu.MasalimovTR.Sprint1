@@ -13,7 +13,7 @@ namespace Tyuiu.MasalimovTR.Sprint1.Task1.V21
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Организация ввода\\вывода в консольных приложениях                *");
+            Console.WriteLine("* Тема: Организация ввода\\вывода в консольных приложениях                 *");
             Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #21                                                             *");
             Console.WriteLine("* Выполнил: Масалимов Тимур Русланович | РППб-24-1                        *");
